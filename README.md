@@ -96,4 +96,4 @@ Contributions welcome:
 
 ## License
 
-Open source. See LICENSE file.
+MIT License. See [LICENSE](LICENSE).
