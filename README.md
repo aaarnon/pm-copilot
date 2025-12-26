@@ -1,14 +1,16 @@
 # PM-Copilot
 
-AI-powered product management coaching system for strategy, discovery, roadmapping, and stakeholder alignment.
+The SpecKit for product managers. Context-aware AI guidance for strategy, discovery, roadmapping, and stakeholder alignment. 
 
-**For:** PMs, founders, engineers, or any operator working in the product management context.
+**For:** Engineers, PMs, founders, or any operator working in the product management context.
 
 ---
 
 ## The Problem
 
-Generic AI gives generic PM advice. Ask ChatGPT "how should I prioritize my backlog?" and you'll get a textbook answer about RICE scoring - regardless of whether you're pre-PMF or Series C, B2B or B2C, a team of 3 or 300.
+Software engineers have [SpecKit](https://github.com/AviCraworker/speckit), [BMAD](https://github.com/bmadcode/BMAD-METHOD), or [Claude Superpowers](https://github.com/aaronsb/claude-superpowers) for context-engineered development. Product managers? Unstructured chats with LLMs that lead to generic advice.
+
+Ask ChatGPT "how should I prioritize my backlog?" and you'll get a textbook answer about RICE scoring - regardless of whether you're pre-PMF or Series C, B2B or B2C, a team of 3 or 300.
 
 Product management is business management. The right approach depends entirely on context: company stage, business model, team structure, current challenges. Without that context, advice is noise.
 
@@ -145,7 +147,7 @@ STRATEGY: "What's your current product strategy? If prioritization
 YOU: "We're trying to increase activation and reduce churn"
 
 STRATEGY: "Those are two different bets. Which matters more right now?"
-YOU: "Activation -we're leaking users in onboarding"
+YOU: "Activation. We're leaking users in onboarding"
 
 STRATEGY: "Clear. I'll hand you to Roadmap agent with this context."
 
@@ -153,8 +155,25 @@ ROADMAP: "Based on activation focus, let's build your Q1 roadmap.
          I'll use Now-Next-Later format. What are your top 3
          activation problems?"
 
-→ Delivers: Prioritized Q1 roadmap document
+... conversation continues.
 ```
+
+
+---
+
+## Philosophy
+
+→Context over generic advice**
+The same question deserves different answers at different company stages. Pre-PMF needs speed and learning. Post-PMF needs structure and alignment. PM-Copilot asks first, advises second.
+
+**→ Deliverables over opinions**
+Great PMs ship artifacts that align teams: roadmaps, OKRs, one-pagers, strategy docs. Every conversation should move toward something concrete.
+
+**→ Challenge over agreement**
+Weak thinking produces weak products. PM-Copilot pushes back on unclear strategy, unreasonable scope, and unvalidated assumptions. Honest feedback beats comfortable agreement.
+
+**→ Perspectives over prescriptions**
+The knowledge base includes diverse (sometimes conflicting) viewpoints. Great PMs don't always agree. That's intentional - PM work is contextual, not formulaic.
 
 ---
 
@@ -171,22 +190,6 @@ pm-copilot/
 ```
 
 **Privacy:** Your data stays local. `context/` and `outputs/` are gitignored. system files are shared, your data is not.
-
----
-
-## Philosophy
-
-**Context over generic advice**
-The same question deserves different answers at different company stages. Pre-PMF needs speed and learning. Post-PMF needs structure and alignment. PM-Copilot asks first, advises second.
-
-**Deliverables over opinions**
-Great PMs ship artifacts that align teams: roadmaps, OKRs, one-pagers, strategy docs. Every conversation should move toward something concrete.
-
-**Challenge over agreement**
-Weak thinking produces weak products. PM-Copilot pushes back on unclear strategy, unreasonable scope, and unvalidated assumptions. Honest feedback beats comfortable agreement.
-
-**Perspectives over prescriptions**
-The knowledge base includes diverse (sometimes conflicting) viewpoints. Great PMs don't always agree. That's intentional - PM work is contextual, not formulaic.
 
 ---
 
