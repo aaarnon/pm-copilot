@@ -8,7 +8,7 @@ The "SpecKit" for product management. PM-Copilot is a multi-agent system that un
 
 ## Overview
 
-Software engineers have [SpecKit](https://github.com/AviCraworker/speckit), [BMAD](https://github.com/bmadcode/BMAD-METHOD), or [Claude Superpowers](https://github.com/aaronsb/claude-superpowers) for context-engineered development. Product managers? Unstructured chats with LLMs that lead to generic advice.
+Software engineers have [SpecKit](https://github.com/github/spec-kit), [BMAD](https://github.com/bmadcode/BMAD-METHOD), or [Superpowers](https://github.com/obra/superpowers) for context-engineered development. Product managers? Unstructured chats with LLMs that lead to generic advice.
 
 Ask ChatGPT "how should I prioritize my backlog?" and you'll get a textbook answer about RICE scoring - regardless of whether you're pre-PMF or Series C, B2B or B2C, a team of 3 or 300.
 
