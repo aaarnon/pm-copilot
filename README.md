@@ -43,6 +43,24 @@ into a new top-level directory in this project called "pm-copilot/"
 
 Reference files with `@pm-copilot/` mentions or start chatting. The Orchestrator will introduce itself.
 
+### Using a Different AI Tool
+
+This project was built for Claude Code, but works with any AI coding tool.
+
+The `CLAUDE.md` files provide AI context. If using a different tool, create symlinks to your tool's config filename:
+
+```bash
+# From pm-copilot directory - replace TARGET with your tool's config filename
+find . -name "CLAUDE.md" -exec sh -c 'ln -sf CLAUDE.md "$(dirname "$1")/TARGET"' _ {} \;
+```
+
+| Tool | Target Filename | Command |
+|------|-----------------|---------|
+| Gemini CLI | GEMINI.md | `find . -name "CLAUDE.md" -exec sh -c 'ln -sf CLAUDE.md "$(dirname "$1")/GEMINI.md"' _ {} \;` |
+| Codex | AGENTS.md | `find . -name "CLAUDE.md" -exec sh -c 'ln -sf CLAUDE.md "$(dirname "$1")/AGENTS.md"' _ {} \;` |
+| Cursor | .cursorrules | `ln -sf CLAUDE.md .cursorrules` (root only) |
+| Antigravity | Check docs | Replace TARGET in command above |
+
 ---
 
 ## How It Works

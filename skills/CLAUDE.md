@@ -1,27 +1,8 @@
 # Skills
 
-Skills are discrete tools that produce specific outputs. Unlike agents (extended conversations), skills run once and return a result—a prioritized list, an OKR draft, an opportunity tree, etc.
+Skills are discrete tools that produce specific outputs. Unlike agents (extended conversations), skills run once and return a result - a prioritized list, an OKR draft, an opportunity tree, etc.
 
 Skills can be invoked by users directly or called by agents during coaching sessions.
-
----
-
-## Skill → Knowledge Mapping
-
-| Skill | Primary Knowledge Folder |
-|-------|--------------------------|
-| prioritization | `knowledge/prioritization/` |
-| positioning | `knowledge/strategy/` |
-| opportunity-tree | `knowledge/discovery/` |
-| okr-builder | `knowledge/metrics/` |
-| impact-model-builder | `knowledge/metrics/` |
-| metric-selector | `knowledge/metrics/` |
-| leading-lagging-mapper | `knowledge/metrics/` |
-| aarrr-analyzer | `knowledge/metrics/` |
-| initiative-alignment-doc | `knowledge/alignment/` |
-| interview-summary | `knowledge/discovery/` |
-
-→ See `knowledge/CLAUDE.md` for folder-based discovery and conflict handling.
 
 ---
 

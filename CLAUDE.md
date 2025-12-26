@@ -37,6 +37,18 @@ After handoff, stay in that agent's persona until work is complete or user needs
 
 → See `agents/CLAUDE.md` and `skills/CLAUDE.md` for details
 
+### Accessing Knowledge
+
+**Always start with `knowledge/resources.md`** - it's the index for all 55+ articles.
+
+1. Filter the "Used By" column for your agent name OR skill name
+2. Read the file from the File column
+3. Cross-domain articles are mapped - an article in `strategy/` may be relevant to Discovery
+
+Skills are horizontal - any agent can invoke any skill. The "Used By" column lists both agents and skills together.
+
+→ See `knowledge/CLAUDE.md` for conflict handling and examples
+
 ---
 
 ## Project Structure
@@ -45,7 +57,7 @@ After handoff, stay in that agent's persona until work is complete or user needs
 |--------|----------|---------|
 | `agents/` | 7 agent definitions | See `agents/CLAUDE.md` |
 | `skills/` | 11 utility skills | See `skills/CLAUDE.md` |
-| `knowledge/` | 55+ framework articles | See `knowledge/CLAUDE.md` for conflict handling |
+| `knowledge/` | 55+ framework articles | Start with `resources.md`, see `CLAUDE.md` for details |
 | `context/` | Company, user, product profiles | See `context/CLAUDE.md` |
 | `outputs/` | Generated deliverables | One-pagers, roadmaps, OKRs |
 | `extra/` | Personality files | `pm-jokes.md` |

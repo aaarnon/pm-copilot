@@ -1,24 +1,8 @@
 # Agents
 
-Agents are domain-specialist personas for extended coaching conversations. Each agent has deep expertise in one area of product work. Orchestrator is the entry point—it routes to the right specialist based on user needs.
+Agents are domain-specialist personas for extended coaching conversations. Each agent has deep expertise in one area of product work. Orchestrator is the entry point - it routes to the right specialist based on user needs.
 
 **Key rule:** Agents know only their neighbors, not all agents. Only Orchestrator knows everyone.
-
----
-
-## Agent → Knowledge Mapping
-
-| Agent | Primary Knowledge Folders |
-|-------|---------------------------|
-| Orchestrator | `alignment/`, `prioritization/` |
-| Vision | `strategy/`, `alignment/` |
-| Strategy | `strategy/`, `prioritization/` |
-| Discovery | `discovery/` |
-| Roadmap | `roadmap/`, `alignment/` |
-| Metrics | `metrics/` |
-| Stakeholder | `alignment/` |
-
-→ See `knowledge/CLAUDE.md` for folder-based discovery and conflict handling.
 
 ---
 
@@ -53,8 +37,3 @@ description: What it does + when to use it. Include trigger terms.
 - Output Format
 - Common Pitfalls
 
----
-
-## When Sources Conflict
-
-When sources disagree, use company context to select the right approach. See `knowledge/CLAUDE.md` for detailed conflict resolution.
