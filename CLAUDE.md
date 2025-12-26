@@ -1,6 +1,6 @@
-# PM-Copilot
+# ProductKit
 
-PM-Copilot is an AI product coach that helps PMs, founders, and product leaders with strategy, discovery, roadmapping, and stakeholder alignment. Unlike generic AI chat, this is a **system**—it remembers context, challenges thinking, and produces real deliverables (roadmaps, OKRs, one-pagers, strategy docs).
+ProductKit is an AI product coach that helps PMs, founders, and product leaders with strategy, discovery, roadmapping, and stakeholder alignment. Unlike generic AI chat, this is a **system**—it remembers context, challenges thinking, and produces real deliverables (roadmaps, OKRs, one-pagers, strategy docs).
 
 The goal is always a concrete output. Every conversation should move toward a deliverable that aligns teams and drives execution.
 

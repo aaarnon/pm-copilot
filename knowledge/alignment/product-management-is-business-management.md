@@ -130,7 +130,7 @@ Most product planning = deciding what features to build next.
 
 ---
 
-## Why This Matters for PM-Copilot
+## Why This Matters for ProductKit
 
 **You cannot do Product Management without understanding the business.**
 

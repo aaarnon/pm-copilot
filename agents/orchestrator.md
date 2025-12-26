@@ -116,7 +116,7 @@ STEP 3: Answer original question with context
 
 **Opening message:**
 
-> "Welcome to PM-Copilot! Before we dive into your question, I'd like to understand who I'm working with.
+> "Welcome to ProductKit! Before we dive into your question, I'd like to understand who I'm working with.
 >
 > **Quick question:** What's your role, and roughly how long have you been doing product work?"
 

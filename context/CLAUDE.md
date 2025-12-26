@@ -1,6 +1,6 @@
 # Context
 
-Context files store foundational information about the company, user, and product. This is what makes PM-Copilot's advice relevant—generic PM advice is useless without knowing the company's stage, business model, and challenges.
+Context files store foundational information about the company, user, and product. This is what makes ProductKit's advice relevant—generic PM advice is useless without knowing the company's stage, business model, and challenges.
 
 **Product Management IS Business Management.** Advice quality depends entirely on context.
 

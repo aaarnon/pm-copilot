@@ -1,6 +1,6 @@
-# PM-Copilot: The "SpecKit" for PMs
+# ProductKit
 
-PM-Copilot is a context-engineered product management workflow featuring composable skills for strategy, discovery, roadmapping, and prioritization. 
+ProductKit is a context-engineered product management workflow featuring composable skills for strategy, discovery, roadmapping, and prioritization. It is like "SpecKit" for PMs.
 
 **For:** Engineers, PMs, founders, or any operator working in the product management context.
 
@@ -14,7 +14,7 @@ Ask ChatGPT "how should I prioritize my backlog?" and you'll get a textbook answ
 
 Product management is business management. The right approach depends entirely on context: company stage, business model, team structure, current challenges. Without that context, advice is noise.
 
-PM-Copilot solves this by:
+ProductKit solves this by:
 1. **Building context first** - Company stage, business model, user profile
 2. **Routing to specialists** - Domain-expert agents for strategy, discovery, metrics, etc.
 3. **Producing deliverables** - Not just advice, but actual artifacts: roadmaps, OKRs, one-pagers, strategy docs
@@ -30,18 +30,18 @@ In your AI coding agent (Claude Code, Cursor, Codex, etc.):
 ```
 Let's clone
 
-https://github.com/aaarnon/pm-copilot
+https://github.com/aaarnon/productkit
 
-into a new top-level directory in this project called "pm-copilot/"
+into a new top-level directory in this project called "productkit/"
 ```
 
 ### Option 2: Download manually
 
-[Download ZIP from GitHub](https://github.com/aaarnon/pm-copilot/archive/refs/heads/main.zip) and extract to your project.
+[Download ZIP from GitHub](https://github.com/aaarnon/productkit/archive/refs/heads/main.zip) and extract to your project.
 
 ### Verify
 
-Reference files with `@pm-copilot/` mentions or start chatting. The Orchestrator will introduce itself.
+Reference files with `@productkit/` mentions or start chatting. The Orchestrator will introduce itself.
 
 ### Using a Different AI Tool
 
@@ -50,7 +50,7 @@ This project was built for Claude Code, but works with any AI coding tool.
 The `CLAUDE.md` files provide AI context. If using a different tool, create symlinks to your tool's config filename:
 
 ```bash
-# From pm-copilot directory - replace TARGET with your tool's config filename
+# From productkit directory - replace TARGET with your tool's config filename
 find . -name "CLAUDE.md" -exec sh -c 'ln -sf CLAUDE.md "$(dirname "$1")/TARGET"' _ {} \;
 ```
 
@@ -69,7 +69,7 @@ find . -name "CLAUDE.md" -exec sh -c 'ln -sf CLAUDE.md "$(dirname "$1")/TARGET"'
 
 **Skills** are discrete tools that produce specific outputs.
 
-**Knowledge** is the source material (from John Cutler, Teresa Torres, Tim Herbig, April Dunford, Brian Balfour, and others product legends).
+**Knowledge** is the source material (from John Cutler, Teresa Torres, Tim Herbig, April Dunford, Brian Balfour, and other product legends).
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
@@ -184,13 +184,13 @@ ROADMAP: "Based on activation focus, let's build your Q1 roadmap.
 ## Philosophy
 
 **→Context over generic advice**
-The same question deserves different answers at different company stages. Pre-PMF needs speed and learning. Post-PMF needs structure and alignment. PM-Copilot asks first, advises second.
+The same question deserves different answers at different company stages. Pre-PMF needs speed and learning. Post-PMF needs structure and alignment. ProductKit asks first, advises second.
 
 **→ Deliverables over opinions**
 Great PMs ship artifacts that align teams: roadmaps, OKRs, one-pagers, strategy docs. Every conversation should move toward something concrete.
 
 **→ Challenge over agreement**
-Weak thinking produces weak products. PM-Copilot pushes back on unclear strategy, unreasonable scope, and unvalidated assumptions. Honest feedback beats comfortable agreement.
+Weak thinking produces weak products. ProductKit pushes back on unclear strategy, unreasonable scope, and unvalidated assumptions. Honest feedback beats comfortable agreement.
 
 **→ Perspectives over prescriptions**
 The knowledge base includes diverse (sometimes conflicting) viewpoints. Great PMs don't always agree. That's intentional - PM work is contextual, not formulaic.
@@ -200,7 +200,7 @@ The knowledge base includes diverse (sometimes conflicting) viewpoints. Great PM
 ## Project Structure
 
 ```
-pm-copilot/
+productkit/
 ├── agents/      # Specialist agents (orchestrator, strategy, discovery, etc.)
 ├── skills/      # Output-producing tools (prioritization, okr-builder, etc.)
 ├── knowledge/   # Source articles by domain (strategy, discovery, metrics, etc.)
