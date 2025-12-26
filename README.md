@@ -65,6 +65,12 @@ find . -name "CLAUDE.md" -exec sh -c 'ln -sf CLAUDE.md "$(dirname "$1")/TARGET"'
 
 ## How It Works
 
+**Agents** are domain-specialist personas for extended coaching conversations.
+
+**Skills** are discrete tools that produce specific outputs.
+
+**Knowledge** is the source material (from John Cutler, Teresa Torres, Tim Herbig, April Dunford, Brian Balfour, and others product legends).
+
 ```
 ┌────────────────────────────────────────────────────────────────┐
 │                                                                │
@@ -78,7 +84,7 @@ find . -name "CLAUDE.md" -exec sh -c 'ln -sf CLAUDE.md "$(dirname "$1")/TARGET"'
 │        ↓                                                       │
 │   ┌─────────────┐    uses     ┌─────────────┐                  │
 │   │   Agent     │ ──────────→ │  Knowledge  │                  │
-│   │ (Strategy,  │             │  (articles) │                  │
+│   │ (Strategy,  │             │  base       │                  │
 │   │  Discovery, │             └─────────────┘                  │
 │   │  Metrics...)│                                              │
 │   └─────────────┘                                              │
@@ -94,11 +100,7 @@ find . -name "CLAUDE.md" -exec sh -c 'ln -sf CLAUDE.md "$(dirname "$1")/TARGET"'
 └────────────────────────────────────────────────────────────────┘
 ```
 
-**Agents** are domain-specialist personas for extended coaching conversations.
 
-**Skills** are discrete tools that produce specific outputs.
-
-**Knowledge** is the source material - frameworks from John Cutler, Teresa Torres, Tim Herbig, April Dunford, Brian Balfour, and others.
 
 ---
 
