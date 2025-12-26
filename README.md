@@ -1,6 +1,6 @@
-# PM-Copilot
+# PM-Copilot: The "SpecKit" for PMs
 
-The "SpecKit" for product management. PM-Copilot is a multi-agent system that understands your product context before guiding you through strategy, discovery, roadmapping, and prioritization. 
+PM-Copilot is a context-engineered product management workflow featuring composable skills for strategy, discovery, roadmapping, and prioritization. 
 
 **For:** Engineers, PMs, founders, or any operator working in the product management context.
 
