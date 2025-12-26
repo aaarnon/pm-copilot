@@ -43,11 +43,11 @@ into a new top-level directory in this project called "productkit/"
 
 ProductKit uses `CLAUDE.md` files for AI context. Other CLIs can read these via fallback config.
 
-**Claude Code** — works automatically.
+**Claude Code** - works automatically.
 
 --
 
-**Cursor** — add to your `.cursorrules`:
+**Cursor** - add to your `.cursorrules`:
 ```
 Read and follow all CLAUDE.md files in this repository.
 ```
@@ -55,14 +55,14 @@ After cloning, load `@productkit` to initialize context.
 
 --
 
-**Codex** — add to `~/.codex/config.toml`:
+**Codex** - add to `~/.codex/config.toml`:
 ```toml
 project_doc_fallback_filenames = ["CLAUDE.md"]
 ```
 
 --
 
-**Gemini CLI** — add to `~/.gemini/settings.json`:
+**Gemini CLI** - add to `~/.gemini/settings.json`:
 ```json
 {
   "context": {
