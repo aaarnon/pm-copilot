@@ -39,24 +39,28 @@ into a new top-level directory in this project called "productkit/"
 
 [Download ZIP from GitHub](https://github.com/aaarnon/productkit/archive/refs/heads/main.zip) and extract to your project.
 
----
-
 ### Using a Different AI Tool
 
 ProductKit uses `CLAUDE.md` files for AI context. Other CLIs can read these via fallback config.
 
 **Claude Code** — works automatically.
 
+--
+
 **Cursor** — add to your `.cursorrules`:
 ```
 Read and follow all CLAUDE.md files in this repository.
 ```
-You can also reference files directly with `@productkit/` mentions.
+After cloning, load `@productkit` to initialize context.
+
+--
 
 **Codex** — add to `~/.codex/config.toml`:
 ```toml
 project_doc_fallback_filenames = ["CLAUDE.md"]
 ```
+
+--
 
 **Gemini CLI** — add to `~/.gemini/settings.json`:
 ```json
@@ -67,11 +71,7 @@ project_doc_fallback_filenames = ["CLAUDE.md"]
 }
 ```
 
----
-
-### Verify
-
-Start chatting about a product challenge. The Orchestrator will introduce itself and guide from there.
+--
 
 ---
 
