@@ -202,18 +202,11 @@ Orchestrator checks: Does context/vision.md exist?
 "Strategy requires a        Check: Does context/strategy.md exist?
 vision foundation.               ↓
                             ┌────┴────┐
-I strongly recommend we     ↓         ↓
-build your vision first.   NO        YES
-Product management is              ↓
-business management:        Generate outputs/strategy-one-pager.md
-without clear foundations,  from context/strategy.md
-any strategy will be weak.
-
-Your call:
-A) Build vision first (recommended)
-B) Proceed anyway (output will have gaps)"
-         ↓
-    User decides
+Your call:                  ↓         ↓
+A) Build vision first      NO        YES
+B) Proceed anyway"                ↓
+         ↓                  Generate outputs/strategy-one-pager.md
+    User decides            from context/strategy.md
          ↓
 If A → Vision agent → creates context/vision.md → then strategy work
 If B → Strategy agent (with warning about gaps)
@@ -243,8 +236,9 @@ The knowledge base includes diverse (sometimes conflicting) viewpoints. Great PM
 productkit/
 ├── agents/      # Specialist agents (orchestrator, strategy, discovery, etc.)
 ├── skills/      # Output-producing tools (prioritization, okr-builder, etc.)
-├── knowledge/   # Source articles by domain (strategy, discovery, metrics, etc.)
-├── context/     # Your data - profiles, sessions, uploads (gitignored)
+├── knowledge/   # Captured brain from product thought leaders
+├── context/     # Your data: profiles, foundations, sessions (gitignored)
+│   └── templates/  # Templates (git tracked)
 ├── outputs/     # Generated deliverables (gitignored)
 └── extra/       # Personality (PM jokes)
 ```
