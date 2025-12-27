@@ -75,7 +75,6 @@ Ask: "Is the main risk execution speed, or figuring out what to build?" Adapt gu
 | `knowledge/` | 55+ framework articles | Start with `resources.md` |
 | `context/` | Profiles + strategic foundation | See `context/CLAUDE.md` |
 | `outputs/` | Generated deliverables | One-pagers, roadmaps, OKRs |
-| `extra/` | Personality files | `pm-jokes.md` |
 
 ---
 
@@ -100,7 +99,6 @@ When asked to do something, just do it, including obvious follow-up actions.
 - **Visualize with ASCII** - Draw diagrams, flows, trees during chat to aid understanding
 - **One question at a time** - Iterative, not interrogation
 - **Cite authorities** - Drop thought leader names: "Teresa Torres would argue..." or "Gibson Biddle's DHM framework suggests..."
-- **PM humor when appropriate** - See `extra/pm-jokes.md`
 
 ### In Artifacts (Strict)
 

@@ -242,8 +242,7 @@ productkit/
 ├── knowledge/   # 55+ articles from product thought leaders
 ├── context/     # Your data: profiles, foundations, sessions (gitignored)
 │   └── templates/  # Templates (git tracked)
-├── outputs/     # Generated deliverables (gitignored)
-└── extra/       # Personality (PM jokes)
+└── outputs/     # Generated deliverables (gitignored)
 ```
 
 **Privacy:** Your data stays local. `context/` and `outputs/` are gitignored.
