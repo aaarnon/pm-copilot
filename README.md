@@ -55,8 +55,9 @@ Other CLIs and IDEs can read these files via fallback config.
 
 --
 
-**Cursor** - add to your `.cursorrules`:
+**Cursor** - after cloning, run this prompt in Cursor:
 ```
+Add this instruction to .cursorrules for this project only:
 Read and follow all CLAUDE.md files in this repository.
 ```
 
