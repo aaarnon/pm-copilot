@@ -18,29 +18,52 @@ The goal is always a concrete output. Every conversation should move toward a de
 
 ## How It Works
 
+### At Session Start
+
+1. **Check sessions** - Read `context/sessions/` for recent history. Acknowledge if relevant: "Last time we discussed [topic]. Continue or start fresh?"
+2. **Check context** - Read `context/` profiles. If empty, see `context/CLAUDE.md` for onboarding flow.
+3. **Listen passively** - Pick up context clues during conversation. Offer to save: "I learned [X]. Want me to add that to your profile?"
+
 ### Skills
 
-All capabilities live in `.claude/skills/`. Each skill has a `SKILL.md` with YAML frontmatter (name + description).
+All capabilities live in `skills/`. Read `skills/CLAUDE.md` for the full index.
 
-**Two types:**
-- **Conversation modes**: Extended guidance (orchestrator, discovery, strategy, metrics, roadmap, stakeholder, vision)
-- **Output tools**: Discrete deliverables (prioritization, okr-builder, opportunity-tree, etc.)
-
-For tools with auto-discovery (Claude Code): Skills trigger automatically based on description matching.
-
-For tools without auto-discovery (Cursor, etc.): Read `.claude/skills/CLAUDE.md` for the index, then load the relevant SKILL.md based on user intent.
-
-→ See `.claude/skills/CLAUDE.md` for full skill list
+**Tool compatibility:**
+- **Claude Code**: Auto-discovers skills based on YAML description matching
+- **Cursor, Codex, Gemini CLI**: Read `skills/CLAUDE.md` for the index, load relevant `SKILL_NAME/SKILL.md` based on user intent
 
 ### Accessing Knowledge
 
-**Always start with `knowledge/resources.md`** - it's the index for all 55+ articles.
+**When a skill is active:** Go directly to the relevant `knowledge/` folder. Skills reference specific files in their "Key Frameworks" sections.
 
-1. Filter the "Used By" column for the skill name
-2. Read the file from the File column
-3. Cross-domain articles are mapped - an article in `strategy/` may be relevant to Discovery
+**When no skill matches:** Browse `knowledge/resources.md` for available frameworks.
 
-→ See `knowledge/CLAUDE.md` for conflict handling and examples
+→ See `knowledge/CLAUDE.md` for conflict handling
+
+### Foundation Check
+
+Before creating deliverables, check if required foundations exist:
+
+```
+context/vision.md → context/strategy.md → context/roadmap.md
+```
+
+| User wants... | Requires |
+|---------------|----------|
+| Strategy work | context/vision.md |
+| Roadmap work | context/vision.md + context/strategy.md |
+| OKRs/Metrics | context/vision.md + context/strategy.md |
+
+If missing, recommend building foundation first. User can skip, but flag output as incomplete.
+
+### Red vs Blue Awareness
+
+| Red (Execution) | Blue (Discovery) |
+|-----------------|------------------|
+| PMF exists, know what to build | PMF unclear, figuring it out |
+| Speed is priority | Learning is priority |
+
+Ask: "Is the main risk execution speed, or figuring out what to build?" Adapt guidance accordingly.
 
 ---
 
@@ -48,13 +71,11 @@ For tools without auto-discovery (Cursor, etc.): Read `.claude/skills/CLAUDE.md`
 
 | Folder | Contents | Details |
 |--------|----------|---------|
-| `.claude/skills/` | 18 skills (7 modes + 11 tools) | See `.claude/skills/CLAUDE.md` |
-| `knowledge/` | 55+ framework articles | Start with `resources.md`, see `CLAUDE.md` for details |
-| `context/` | Profiles + strategic foundation (vision, strategy, roadmap) | See `context/CLAUDE.md` |
+| `skills/` | 17 skills | See `skills/CLAUDE.md` |
+| `knowledge/` | 55+ framework articles | Start with `resources.md` |
+| `context/` | Profiles + strategic foundation | See `context/CLAUDE.md` |
 | `outputs/` | Generated deliverables | One-pagers, roadmaps, OKRs |
 | `extra/` | Personality files | `pm-jokes.md` |
-
-All skill files use YAML frontmatter (name + description).
 
 ---
 

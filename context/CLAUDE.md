@@ -21,14 +21,14 @@ Context files store foundational information about the company, user, product, a
 These files form a dependency chain. Each layer requires the one above.
 
 ```
-vision.md → strategy.md → roadmap.md
+context/vision.md → context/strategy.md → context/roadmap.md
 ```
 
 | File | Purpose | Requires | Enables |
 |------|---------|----------|---------|
-| `vision.md` | Why we exist, where we're going (3-5+ years) | — | Strategy work |
-| `strategy.md` | How we win (Narrative, Playing Field, Winning Moves) | vision.md | Roadmap work |
-| `roadmap.md` | What we're building, in what order (point-in-time, dated) | vision.md, strategy.md | Prioritization, OKRs |
+| `context/vision.md` | Why we exist, where we're going (3-5+ years) | — | Strategy work |
+| `context/strategy.md` | How we win (Narrative, Playing Field, Winning Moves) | context/vision.md | Roadmap work |
+| `context/roadmap.md` | What we're building, in what order (point-in-time, dated) | context/vision.md, context/strategy.md | Prioritization, OKRs |
 
 **Why this matters:** Skipping foundations creates weak outputs. A roadmap without strategy is just a feature list. Strategy without vision is tactics without direction.
 
@@ -51,7 +51,7 @@ context/
 │       └── ...
 ```
 
-When `products/` folder exists, orchestrator asks "Which product?" before routing.
+When `products/` folder exists, ask "Which product?" before proceeding.
 
 ### Other
 
@@ -65,16 +65,33 @@ When `products/` folder exists, orchestrator asks "Which product?" before routin
 
 ## How Context Gets Built
 
-**Orchestrator handles this automatically.** No manual setup required.
-
 ### First-Time Users (Empty Profiles)
 
-1. **Ask about user first** — Role, experience level (sets tone)
-2. **Offer company profile options:**
-   - A) Upload files to `uploads/` → AI builds profile
-   - B) Quick interview (5-6 questions)
-   - C) Skip (learn passively during conversation)
-3. **Then answer original question** with context
+**Step 1: User Context First (sets tone)**
+
+Ask: "What's your role?" (senior PM, founder, engineer, etc.)
+
+- If already a PM → skip familiarity question, proceed to company
+- If not a PM → ask about PM familiarity (new / somewhat / very familiar)
+
+Adapt communication style:
+| Familiarity | Style |
+|-------------|-------|
+| New to PM | Educational, explain concepts |
+| Somewhat familiar | Balanced, assume basics |
+| Very familiar / Is PM | Direct, peer-level challenge |
+
+**Step 2: Company Context (essential)**
+
+Ask: "Do you have a company website I can look at?"
+
+- If yes → fetch website, infer what you can, confirm with user
+- If fetch fails → search company name for context
+- If no website → offer: A) Upload files to `uploads/`, B) Quick interview, C) Skip
+
+**Step 3: Answer Original Question**
+
+With whatever context you have. If thin, flag it: "I don't have full context on your company stage, so I'll give options for different scenarios..."
 
 ### Returning Users (Profiles Exist)
 
@@ -139,7 +156,6 @@ Templates live in `templates/` folder and are tracked in git. Filled versions (i
 | `templates/strategy.template.md` | `strategy.md` |
 | `templates/roadmap.template.md` | `roadmap.md` |
 
-Orchestrator creates these through conversation. Manual creation not required.
+Created through conversation. Manual creation not required.
 
-→ Full onboarding flow in `.claude/skills/orchestrator/SKILL.md`
 → Session format in `sessions/CLAUDE.md`

@@ -6,11 +6,11 @@ Source material from PM thought leaders - Gibson Biddle, Teresa Torres, Brian Ba
 
 ## How to Access
 
-**Always start with `resources.md`** - it's the index for all 55+ articles.
+**When a skill is active:** Go directly to the relevant folder. Skills already reference specific files in their "Key Frameworks" sections. The folder structure mirrors skill domains (strategy/, metrics/, discovery/, etc.).
 
-1. Filter "Used By" column for your agent name OR skill name
-2. Read the file from the File column
-3. Do not search folders directly - you'll miss cross-domain content
+**When no skill matches:** Start with `resources.md` to browse available frameworks. Filter "Used By" column to find relevant content.
+
+**For cross-domain content:** Handled by skill relationships, not folder structure. Utility skills are mapped to multiple parent skills in `skills/CLAUDE.md`.
 
 ---
 

@@ -40,3 +40,6 @@ decisions.md
 .obsidian/
 *.swp
 *.swo
+
+# External plugins (local copy, not part of this repo)
+superpowers/

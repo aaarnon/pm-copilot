@@ -22,7 +22,7 @@ Examples:
 # Session: [Topic]
 
 **Date:** YYYY-MM-DD
-**Primary Agent:** [Which agent was mostly used]
+**Primary Skill:** [Which skill was mostly used]
 
 ## Context
 [What the user was trying to accomplish]
@@ -46,7 +46,7 @@ Examples:
 
 ---
 
-## Orchestrator Behavior
+## Session Behavior
 
 **Start of session:**
 1. Check for recent session files (last 3-5)

@@ -51,7 +51,7 @@ Other CLIs and IDEs can read these files via fallback config.
 
 --
 
-**Claude Code** - no setup needed. Works automatically.
+**Claude Code** - Full skill auto-discovery. Optimal experience for this project. No setup needed.
 
 --
 
@@ -85,11 +85,11 @@ directory. Ensure the JSON contains a "context" object with a "fileName" array s
 
 ## How It Works
 
-**Agents** are domain-specialist personas for extended coaching conversations.
-
-**Skills** are discrete tools that produce specific outputs.
+**Skills** are specialized capabilities that handle different PM domains (strategy, discovery, metrics, etc.). Each skill knows its domain deeply and produces specific deliverables.
 
 **Knowledge** is the source material (from John Cutler, Teresa Torres, Tim Herbig, April Dunford, Brian Balfour, and other product legends).
+
+**Context** stores your company profile, user profile, and strategic foundation (vision → strategy → roadmap).
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
@@ -97,25 +97,21 @@ directory. Ensure the JSON contains a "context" object with a "fileName" array s
 │   User Question                                                │
 │        ↓                                                       │
 │   ┌─────────────┐    checks    ┌─────────────┐                 │
-│   │ Orchestrator│ ──────────→  │   Context   │                 │
-│   └─────────────┘              │  (profiles) │                 │
-│        │                       └─────────────┘                 │
-│        │ routes to specialist                                  │
+│   │  AI Tool    │ ──────────→  │   Context   │                 │
+│   │ (Claude,    │              │  (profiles) │                 │
+│   │  Cursor...) │              └─────────────┘                 │
+│   └─────────────┘                                              │
+│        │ triggers matching skill                               │
 │        ↓                                                       │
 │   ┌─────────────┐    uses     ┌─────────────┐                  │
-│   │   Agent     │ ──────────→ │  Knowledge  │                  │
+│   │   Skill     │ ──────────→ │  Knowledge  │                  │
 │   │ (Strategy,  │             │  base       │                  │
 │   │  Discovery, │             └─────────────┘                  │
 │   │  Metrics...)│                                              │
 │   └─────────────┘                                              │
 │        │                                                       │
-│        │ invokes                                               │
 │        ↓                                                       │
-│   ┌─────────────┐                                              │
-│   │   Skills    │ ──────────→  Deliverable                     │
-│   │ (OKR,       │              (roadmap, one-pager, etc.)      │
-│   │  prioritize)│                                              │
-│   └─────────────┘                                              │
+│   Deliverable (roadmap, one-pager, OKRs, strategy doc, etc.)   │
 │                                                                │
 └────────────────────────────────────────────────────────────────┘
 ```
@@ -124,32 +120,30 @@ directory. Ensure the JSON contains a "context" object with a "fileName" array s
 
 ---
 
-## Agent Handoffs
-
-### Workflow
+## Workflow
 
 1. **Start a conversation** - Describe your product challenge
-2. **Build context** (first time) - Orchestrator asks about your role and company
-3. **Get routed** - Orchestrator hands off to the right specialist agent
-4. **Work with the agent** - Iterative conversation toward a deliverable
-5. **Produce output** - Agent invokes skills to generate artifacts
+2. **Build context** (first time) - ProductKit asks about your role and company
+3. **Get matched** - AI tool triggers the right skill based on your intent
+4. **Work iteratively** - Conversation toward a deliverable
+5. **Produce output** - Skill generates artifacts (roadmap, OKRs, one-pager, etc.)
 6. **Save session** (optional) - Preserve context for future conversations
 
-### Routing
+### Skills Network
 
-Agents hand off to each other based on domain. Orchestrator coordinates all routing.
+Skills reference each other based on domain. For example, strategy skill may suggest using discovery skill if assumptions need validation.
 
 ```mermaid
 flowchart TB
-    U((User)) <--> O{Orchestrator}
-    O <-.->|context| C[(Context)]
+    U((User)) <--> AI{AI Tool}
+    AI <-.->|checks| C[(Context)]
 
-    O <--> V[Vision]
-    O <--> S[Strategy]
-    O <--> D[Discovery]
-    O <--> R[Roadmap]
-    O <--> M[Metrics]
-    O <--> ST[Stakeholder]
+    AI <--> V[Vision]
+    AI <--> S[Strategy]
+    AI <--> D[Discovery]
+    AI <--> R[Roadmap]
+    AI <--> M[Metrics]
+    AI <--> ST[Stakeholder]
 
     V <-.-> S
     S <-.-> D
@@ -158,8 +152,7 @@ flowchart TB
     R <-.-> M
     M <-.-> ST
 
-    S & D & R & M <-->|skills| SK[[Skills]]
-    SK --> Out>Deliverable]
+    V & S & D & R & M & ST --> Out>Deliverable]
     Out --- E1[Roadmap]
     Out --- E2[OKRs]
     Out --- E3[One-pager]
@@ -171,7 +164,7 @@ flowchart TB
 ```
 User: "Help me create a strategy one-pager"
                          ↓
-   Orchestrator checks: Does context/vision.md exist?
+   ProductKit checks: Does context/vision.md exist?
                          ↓
          ┌───────────────┴───────────────┐
          ↓                               ↓
@@ -184,39 +177,41 @@ B) Proceed anyway"                  ↓         ↓
          ↓                         NO        YES
     User decides                    ↓         ↓
          ↓               "Strategy missing.    Generate output from
-If A → Vision agent       Your call:           context/strategy.md
+If A → Vision skill       Your call:           context/strategy.md
 If B → Proceed            A) Build strategy
        with gaps          B) Proceed anyway"
 ```
 
-### Example: Agents Handoff
+### Example: Skill Conversation
 
 ```
 YOU: "I need to prioritize my backlog but everything feels important"
 
-ORCHESTRATOR: "What's your role and experience level?"
+PRODUCTKIT: "What's your role and experience level?"
 YOU: "Senior PM, 5 years"
 
-ORCHESTRATOR: "Got it. What stage is your company?
-              And what deliverable do you want to walk away with?"
+PRODUCTKIT: "Got it. What stage is your company?
+             And what deliverable do you want to walk away with?"
 YOU: "Series A, post-PMF. I need a prioritized roadmap for Q1."
 
-ORCHESTRATOR: "Sounds like you're in execution mode. Let me hand you
-              to Strategy agent to check if priorities should be obvious
-              from your strategy. If not, we'll fix that first."
+PRODUCTKIT: "Sounds like you're in execution mode. Let's check if
+             priorities should be obvious from your strategy. If not,
+             we'll fix that first."
 
-STRATEGY: "What's your current product strategy? If prioritization
-          feels hard, the strategy might be unclear."
+[Strategy skill activates]
+
+PRODUCTKIT: "What's your current product strategy? If prioritization
+             feels hard, the strategy might be unclear."
 YOU: "We're trying to increase activation and reduce churn"
 
-STRATEGY: "Those are two different bets. Which matters more right now?"
+PRODUCTKIT: "Those are two different bets. Which matters more right now?"
 YOU: "Activation. We're leaking users in onboarding"
 
-STRATEGY: "Clear. I'll hand you to Roadmap agent with this context."
+PRODUCTKIT: "Clear. With activation as the focus, let's build your Q1
+             roadmap. I'll use Now-Next-Later format. What are your
+             top 3 activation problems?"
 
-ROADMAP: "Based on activation focus, let's build your Q1 roadmap.
-         I'll use Now-Next-Later format. What are your top 3
-         activation problems?"
+[Roadmap skill activates]
 
 ... conversation continues.
 ```
@@ -243,8 +238,8 @@ The knowledge base includes diverse (sometimes conflicting) viewpoints. Great PM
 
 ```
 productkit/
-├── .claude/skills/  # All skills (conversation modes + output tools)
-├── knowledge/   # Captured brain from product thought leaders
+├── skills/          # All 17 skills (strategy, discovery, metrics, etc.)
+├── knowledge/   # 55+ articles from product thought leaders
 ├── context/     # Your data: profiles, foundations, sessions (gitignored)
 │   └── templates/  # Templates (git tracked)
 ├── outputs/     # Generated deliverables (gitignored)
@@ -259,8 +254,8 @@ productkit/
 
 Contributions welcome:
 - Knowledge base articles (new frameworks, authors)
-- Agent behavior improvements
-- New utility skills
+- Skill improvements
+- New skills
 - Bug fixes and refinements
 
 ---
