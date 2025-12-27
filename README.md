@@ -37,6 +37,16 @@ into a new top-level directory in this project called "productkit/"
 
 [Download ZIP from GitHub](https://github.com/aaarnon/productkit/archive/refs/heads/main.zip) and extract to your project.
 
+### Activate ProductKit
+
+After cloning, activate ProductKit by running this prompt:
+
+```
+Read productkit/CLAUDE.md and start a session.
+```
+
+If working, ProductKit will introduce itself and begin onboarding.
+
 ### Setup by AI Tool
 
 ProductKit uses `CLAUDE.md` files as the standard. Why Claude? As of this writing, Claude seems best suited for back-and-forth conversations, which ProductKit relies on. Tools like Codex and Gemini appear better for one-shot solutions. This is just the author's observation, so feel free to choose your preferred tool.
@@ -53,7 +63,6 @@ Other CLIs and IDEs can read these files via fallback config.
 ```
 Read and follow all CLAUDE.md files in this repository.
 ```
-After cloning, load `@productkit` to initialize context.
 
 --
 
