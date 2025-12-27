@@ -37,7 +37,7 @@ into a new top-level directory in this project called "productkit/"
 
 [Download ZIP from GitHub](https://github.com/aaarnon/productkit/archive/refs/heads/main.zip) and extract to your project.
 
-### Using a Different AI Tool
+### Setup by AI Tool
 
 ProductKit uses `CLAUDE.md` files for AI context. Other CLIs can read these via fallback config.
 
