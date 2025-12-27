@@ -21,9 +21,7 @@ ProductKit solves this by:
 
 ## Quick Start
 
-**Option 1: Clone via AI coding agent**
-
-In your AI coding agent (Claude Code, Cursor, Codex, etc.):
+**Option 1** - In your AI coding agent (Claude Code, Cursor, Codex, etc.):
 
 ```
 Let's clone
@@ -33,9 +31,7 @@ https://github.com/aaarnon/productkit
 into a new top-level directory in this project called "productkit/"
 ```
 
-**Option 2: Download manually**
-
-[Download ZIP from GitHub](https://github.com/aaarnon/productkit/archive/refs/heads/main.zip) and extract to your project.
+**Option 2** - [Download ZIP from GitHub](https://github.com/aaarnon/productkit/archive/refs/heads/main.zip) and extract to your project.
 
 ### Activate ProductKit
 
