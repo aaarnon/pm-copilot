@@ -156,7 +156,31 @@ flowchart TB
     Out --- E4[Strategy doc]
 ```
 
-### Example: Orchestrator → Strategy → Roadmap
+### Example: Foundation Check
+
+```
+User: "Help me create a strategy one-pager"
+                    ↓
+Orchestrator checks: Does context/vision.md exist?
+                    ↓
+         ┌─────────┴─────────┐
+         ↓                   ↓
+        NO                  YES
+         ↓                   ↓
+"Strategy requires a        Check: Does context/strategy.md exist?
+vision foundation.               ↓
+                            ┌────┴────┐
+Your call:                  ↓         ↓
+A) Build vision first      NO        YES
+B) Proceed anyway"                ↓
+         ↓                  Generate outputs/strategy-one-pager.md
+    User decides            from context/strategy.md
+         ↓
+If A → Vision agent → creates context/vision.md → then strategy work
+If B → Strategy agent (with warning about gaps)
+```
+
+### Example: Agents Handoff
 
 ```
 YOU: "I need to prioritize my backlog but everything feels important"
@@ -188,44 +212,20 @@ ROADMAP: "Based on activation focus, let's build your Q1 roadmap.
 ... conversation continues.
 ```
 
-### Example: Foundation Check
-
-```
-User: "Help me create a strategy one-pager"
-                    ↓
-Orchestrator checks: Does context/vision.md exist?
-                    ↓
-         ┌─────────┴─────────┐
-         ↓                   ↓
-        NO                  YES
-         ↓                   ↓
-"Strategy requires a        Check: Does context/strategy.md exist?
-vision foundation.               ↓
-                            ┌────┴────┐
-Your call:                  ↓         ↓
-A) Build vision first      NO        YES
-B) Proceed anyway"                ↓
-         ↓                  Generate outputs/strategy-one-pager.md
-    User decides            from context/strategy.md
-         ↓
-If A → Vision agent → creates context/vision.md → then strategy work
-If B → Strategy agent (with warning about gaps)
-```
-
 ---
 
 ## Philosophy
 
-**→Context over generic advice**
+**→ Context over generic advice.**
 The same question deserves different answers at different company stages. Pre-PMF needs speed and learning. Post-PMF needs structure and alignment. ProductKit asks first, advises second.
 
-**→ Deliverables over opinions**
+**→ Deliverables over opinions.**
 Great PMs ship artifacts that align teams: roadmaps, OKRs, one-pagers, strategy docs. Every conversation should move toward something concrete.
 
-**→ Challenge over agreement**
+**→ Challenge over agreement.**
 Weak thinking produces weak products. ProductKit pushes back on unclear strategy, unreasonable scope, and unvalidated assumptions. Honest feedback beats comfortable agreement.
 
-**→ Perspectives over prescriptions**
+**→ Perspectives over prescriptions.**
 The knowledge base includes diverse (sometimes conflicting) viewpoints. Great PMs don't always agree. That's intentional - PM work is contextual, not formulaic.
 
 ---
