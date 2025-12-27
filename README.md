@@ -160,23 +160,23 @@ flowchart TB
 
 ```
 User: "Help me create a strategy one-pager"
-                    ↓
-Orchestrator checks: Does context/vision.md exist?
-                    ↓
-         ┌─────────┴─────────┐
-         ↓                   ↓
-        NO                  YES
-         ↓                   ↓
-"Strategy requires a        Check: Does context/strategy.md exist?
-vision foundation.               ↓
-Your call:                  ┌────┴────┐
-A) Build vision first       ↓         ↓
-B) Proceed anyway"         NO        YES
-         ↓                        ↓
-    User decides            Generate outputs/strategy-one-pager.md
-         ↓
-If A → Vision agent → creates context/vision.md → then strategy work
-If B → Strategy agent (with warning about gaps)
+                         ↓
+   Orchestrator checks: Does context/vision.md exist?
+                         ↓
+         ┌───────────────┴───────────────┐
+         ↓                               ↓
+        NO                              YES
+         ↓                               ↓
+"Vision missing.            Check: Does context/strategy.md exist?
+Your call:                               ↓
+A) Build vision first               ┌────┴────┐
+B) Proceed anyway"                  ↓         ↓
+         ↓                         NO        YES
+    User decides                    ↓         ↓
+         ↓               "Strategy missing.    Generate output from
+If A → Vision agent       Your call:           context/strategy.md
+If B → Proceed            A) Build strategy
+       with gaps          B) Proceed anyway"
 ```
 
 ### Example: Agents Handoff
