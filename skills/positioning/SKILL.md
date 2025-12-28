@@ -19,11 +19,9 @@ Creates product positioning statements and competitive differentiation using Apr
 
 ---
 
-## Knowledge Folder
+## Knowledge Access
 
-**Primary folder:** `knowledge/strategy/`
-
-Search for "positioning" in this folder for April Dunford's detailed framework and additional positioning guidance. New files added to this folder are automatically available.
+See `## positioning` in `resources.md`. Read Core first, Additional as needed.
 
 ---
 

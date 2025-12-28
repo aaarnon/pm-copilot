@@ -19,11 +19,9 @@ Applies structured prioritization frameworks when priorities aren't obvious.
 
 ---
 
-## Knowledge Folder
+## Knowledge Access
 
-**Primary folder:** `knowledge/prioritization/`
-
-Search this folder for deeper content on VEUC framework, decision-making approaches, and prioritization philosophy. New files added to this folder are automatically available.
+See `## prioritization` in `resources.md`. Read Core first, Additional as needed.
 
 ---
 
@@ -37,14 +35,8 @@ Results are distributed **logarithmically** - some things give 100x impact, one 
 
 ---
 
-## Key References
+## Core Concepts
 
-For framework details, read from `knowledge/prioritization/`:
-- **VEUC** → Value, Effort, Urgency, Confidence
-- **DHM** → See `knowledge/strategy/product-strategy-gibson-biddle.md`
-- **Work Types** → See `knowledge/strategy/four-types-product-work-reforge.md`
-
-**Core concepts:**
 - If not obvious, you have a strategy problem
 - DHM: Delight, Hard-to-copy, Margin-enhancing
 - Match work type to stage: Pre-PMF → feature work, Scaling → growth work

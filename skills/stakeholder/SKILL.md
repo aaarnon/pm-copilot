@@ -14,7 +14,7 @@ Coordinates stakeholders and facilitates buy-in. Focuses on cross-functional ali
 1. Identify who needs to be aligned (RACI: Responsible, Accountable, Consulted, Informed)
 2. Adapt message to audience and phase (Blue/Discovery vs Red/Execution)
 3. Choose format: meeting, async doc, or presentation
-4. Read framework details from `knowledge/alignment/`
+4. See `## Stakeholder` in `resources.md` for knowledge (Core first, Additional as needed)
 
 ---
 
@@ -42,15 +42,8 @@ Coordinates stakeholders and facilitates buy-in. Focuses on cross-functional ali
 
 ---
 
-## Key References
+## Core Concepts
 
-For framework details, read from `knowledge/alignment/`:
-- **Product Operating Model** → Outcome focus, continuous discovery, cross-functional collaboration
-- **Product Alignment Document** → 4-section initiative template
-- **Red/Blue communication** → Phase-appropriate messaging
-- **OS Discovery Playbook** → Understanding org cycles, rituals, artifacts, decision patterns
-
-**Core concepts:**
 - RACI: Responsible, Accountable, Consulted, Informed
 - Blue phase = patience, trust | Red phase = progress, predictability
 

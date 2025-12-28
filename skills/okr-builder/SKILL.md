@@ -18,11 +18,9 @@ Formulates Objectives and Key Results with outcome-based goals when OKRs are app
 
 ---
 
-## Knowledge Folder
+## Knowledge Access
 
-**Primary folder:** `knowledge/metrics/`
-
-Search for "OKR" in this folder for detailed guidance on OKR fundamentals and avoiding OKR theatre. New files added to this folder are automatically available.
+See `## okr-builder` in `resources.md`. Read Core first, Additional as needed.
 
 ---
 

@@ -18,11 +18,9 @@ Creates structured one-page summaries from customer interview notes with opportu
 
 ---
 
-## Knowledge Folder
+## Knowledge Access
 
-**Primary folder:** `knowledge/discovery/`
-
-Search for "interview" or "snapshot" in this folder for Teresa Torres' story-based interview techniques and synthesis methods. New files added to this folder are automatically available.
+See `## interview-summary` in `resources.md`. Read Core first, Additional as needed.
 
 ---
 

@@ -40,11 +40,12 @@ All capabilities live in `skills/`. Read `skills/CLAUDE.md` for the full index.
 
 ### Accessing Knowledge
 
-**When a skill is active:** Go directly to the relevant `knowledge/` folder. Skills reference specific files in their "Key Frameworks" sections.
+**`resources.md` is the single source of truth.** Always check it first:
+1. Go to the `## [Skill]` section (e.g., `## Strategy`)
+2. Read `### Core` resources first (essential)
+3. Read `### Additional` as needed (supplementary)
 
-**When no skill matches:** Browse `knowledge/resources.md` for available frameworks.
-
-→ See `knowledge/CLAUDE.md` for conflict handling
+→ See `knowledge/CLAUDE.md` for details and conflict handling
 
 ### Foundation Check
 
@@ -138,8 +139,8 @@ When user asks to add content to the project (not just pasting for discussion):
 
 When adding to knowledge/:
 1. Add file to appropriate folder
-2. Update `resources.md`
-3. Ask: "Is this a breakthrough article worth listing in the skill's key references?"
+2. Update `resources.md` skill section(s): Add file path under `### Core` or `### Additional`
+3. Update `resources.md` Article Reference table: Add row with Article, File, Key Concepts, Author
 
 ---
 

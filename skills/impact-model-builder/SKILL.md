@@ -18,11 +18,9 @@ Creates driver trees that connect product activities to business outcomes.
 
 ---
 
-## Knowledge Folder
+## Knowledge Access
 
-**Primary folder:** `knowledge/metrics/`
-
-Search for "impact" or "driver" in this folder for Ed Biden's complete 7-step process and examples. New files added to this folder are automatically available.
+See `## impact-model-builder` in `resources.md`. Read Core first, Additional as needed.
 
 ---
 

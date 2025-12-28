@@ -43,14 +43,8 @@ Validates problems and maps opportunities before committing to solutions. Focuse
 
 ---
 
-## Key References
+## Core Concepts
 
-For framework details, read from `knowledge/discovery/`:
-- **OST (Opportunity Solution Trees)** → Teresa Torres framework
-- **Interview techniques** → Story-based interviews, synthesis
-- **Continuous discovery** → Weekly customer touchpoints
-
-**Core concepts:**
 - Four Risks: Value, Usability, Feasibility, Business Viability
 - Frame as capabilities (what users achieve), not features
 - Triage to: Backlog, Parking Lot, or Bin

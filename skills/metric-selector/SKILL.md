@@ -18,11 +18,9 @@ Selects appropriate success metrics for initiatives using the 5-lenses framework
 
 ---
 
-## Knowledge Folder
+## Knowledge Access
 
-**Primary folder:** `knowledge/metrics/`
-
-Search for "success metrics" or "choosing metrics" in this folder for detailed selection guidance and common traps. New files added to this folder are automatically available.
+See `## metric-selector` in `resources.md`. Read Core first, Additional as needed.
 
 ---
 

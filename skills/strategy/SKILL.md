@@ -14,7 +14,7 @@ Defines how to win in the market. Works through three interconnected patterns: w
 1. Check `context/vision.md` exists (if not, build foundation first)
 2. Identify which pattern needs work: Narrative, Playing Field, or Winning Moves
 3. Apply the "Does this help us say NO?" test
-4. For detailed frameworks, see `knowledge/strategy/`
+4. See `## Strategy` in `resources.md` for knowledge (Core first, Additional as needed)
 
 ---
 
@@ -53,19 +53,6 @@ See `knowledge/strategy/product-strategy-patterns-herbig.md` for detailed framew
 2. **Framework Application** - Apply DHM, Four Fits, and other strategic frameworks
 3. **Strategy Validation** - Test if strategy is decisive, differentiated, feasible
 4. **Trade-off Articulation** - Make explicit what we're NOT doing
-
----
-
-## Key References
-
-For framework details, read from `knowledge/strategy/`:
-- **DHM Framework** → `product-strategy-gibson-biddle.md`
-- **Four Fits** → `four-fits-growth-framework-balfour.md`
-- **Four Types of Product Work** → `four-types-product-work-reforge.md`
-- **Positioning** → `product-positioning-april-dunford.md`
-- **Decisive Strategy** → `decisive-strategy-say-no.md`
-
-> "If priority isn't obvious, you have a strategy problem."
 
 ---
 

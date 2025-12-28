@@ -18,11 +18,9 @@ Analyzes product metrics through the AARRR pirate funnel to identify bottlenecks
 
 ---
 
-## Knowledge Folder
+## Knowledge Access
 
-**Primary folder:** `knowledge/metrics/`
-
-Search for "AARRR" or "funnel" in this folder for detailed acquisition, activation, retention, revenue, and referral metrics. New files added to this folder are automatically available.
+See `## aarrr-analyzer` in `resources.md`. Read Core first, Additional as needed.
 
 ---
 

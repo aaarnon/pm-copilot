@@ -14,7 +14,7 @@ Plans and communicates product initiatives. Focuses on initiative sequencing, st
 1. Check `context/strategy.md` exists (roadmap derives from strategy)
 2. Choose narrative mode based on audience
 3. Use Now-Next-Later format with appropriate confidence levels
-4. Read framework details from `knowledge/roadmap/`
+4. See `## Roadmap` in `resources.md` for knowledge (Core first, Additional as needed)
 
 ---
 
@@ -42,14 +42,8 @@ Plans and communicates product initiatives. Focuses on initiative sequencing, st
 
 ---
 
-## Key References
+## Core Concepts
 
-For framework details, read from `knowledge/roadmap/`:
-- **Narrative modes** → 6 modes for different audiences
-- **Now-Next-Later** → Confidence-based time horizons
-- **Vision Stack** → How roadmap connects to strategy
-
-**Core concepts:**
 - Now = high confidence, committed | Next = medium, planned | Later = low, directional
 - Choose narrative mode for audience (Vision-Driven, KPI-Driven, Executive Pitch, etc.)
 - Blue phase = outcome-focused | Red phase = delivery-focused

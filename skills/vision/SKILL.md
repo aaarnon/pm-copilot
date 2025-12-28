@@ -14,7 +14,8 @@ Defines the long-term purpose and direction of the product or business. Focuses 
 1. Answer: Why does this product/business exist?
 2. Paint the 3-5 year aspirational future state
 3. Test: Is it inspiring, clear, differentiating, and stable?
-4. Save to `context/vision.md` (foundation for strategy)
+4. See `## Vision` in `resources.md` for knowledge (Core first, Additional as needed)
+5. Save to `context/vision.md` (foundation for strategy)
 
 ---
 
@@ -42,13 +43,8 @@ Defines the long-term purpose and direction of the product or business. Focuses 
 
 ---
 
-## Key References
+## Core Concepts
 
-For framework details, read from `knowledge/vision/`:
-- **Vision Stack** → How vision connects to strategy and roadmap
-- **Vision vs Mission** → Distinction and relationship
-
-**Core concepts:**
 - Validation tests: Inspiring, Clear, Differentiating, Actionable, Stable
 - Vision = destination (3-5+ years), Strategy = path to get there
 

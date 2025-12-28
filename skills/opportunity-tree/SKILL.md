@@ -18,11 +18,9 @@ Creates and prioritizes Opportunity Solution Trees (OST) using Teresa Torres' fr
 
 ---
 
-## Knowledge Folder
+## Knowledge Access
 
-**Primary folder:** `knowledge/discovery/`
-
-Search for "opportunity" or "OST" in this folder for Teresa Torres' complete framework and prioritization guidance. New files added to this folder are automatically available.
+See `## opportunity-tree` in `resources.md`. Read Core first, Additional as needed.
 
 ---
 

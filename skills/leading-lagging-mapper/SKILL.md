@@ -18,11 +18,9 @@ Maps relationships between leading indicators and lagging outcomes to identify p
 
 ---
 
-## Knowledge Folder
+## Knowledge Access
 
-**Primary folder:** `knowledge/metrics/`
-
-Search for "leading" or "lagging" in this folder for detailed indicator relationships and AARRR funnel metrics. New files added to this folder are automatically available.
+See `## leading-lagging-mapper` in `resources.md`. Read Core first, Additional as needed.
 
 ---
 

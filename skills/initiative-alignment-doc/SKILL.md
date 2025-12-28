@@ -18,11 +18,9 @@ Creates Product Alignment Documents for initiatives with problem, solution, laun
 
 ---
 
-## Knowledge Folder
+## Knowledge Access
 
-**Primary folder:** `knowledge/alignment/`
-
-Search for "alignment" or "one-pager" in this folder for template guidance and the Product Operating Model. New files added to this folder are automatically available.
+See `## initiative-alignment-doc` in `resources.md`. Read Core first, Additional as needed.
 
 ---
 

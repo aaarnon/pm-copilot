@@ -15,7 +15,7 @@ Defines and organizes success measurement. Focuses on connecting metrics to outc
 2. Start with the outcome you want to achieve
 3. Identify leading indicators that predict that outcome
 4. Choose metrics that are actionable (team can influence)
-5. Read framework details from `knowledge/metrics/`
+5. See `## Metrics` in `resources.md` for knowledge (Core first, Additional as needed)
 
 ---
 
@@ -43,16 +43,8 @@ Defines and organizes success measurement. Focuses on connecting metrics to outc
 
 ---
 
-## Key References
+## Core Concepts
 
-For framework details, read from `knowledge/metrics/`:
-- **OKRs** → `okrs-product-management-herbig.md`, `escape-okr-theatre-ant-murphy.md`
-- **Impact Models** → `impact-model-roadmap-ed-biden.md`
-- **Leading Indicators** → `leading-product-metrics-hustle-badger.md`
-- **Success Metrics** → `choosing-success-metrics-hustle-badger.md`
-- **Retention/Revenue** → `revenue-retention-metrics-hustle-badger.md`
-
-**Core concepts:**
 - Leading indicators = predictive, actionable (activation rate, feature adoption)
 - Lagging indicators = outcomes, delayed (revenue, churn)
 - Goal: Find leading indicators that predict lagging outcomes
