@@ -57,8 +57,9 @@ Other CLIs and IDEs can read these files via fallback config.
 
 **Cursor** - after cloning, run this prompt in Cursor:
 ```
-Add this instruction to .cursorrules for this project only:
-Read and follow all CLAUDE.md files in this repository.
+Add this line to .cursorrules:
+
+Always read and follow productkit/CLAUDE.md before responding.
 ```
 
 --

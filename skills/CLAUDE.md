@@ -34,6 +34,39 @@ skill-creator       →    (meta: for building new skills)
 
 ---
 
+## Stage Awareness (Strict)
+
+When working through the foundation chain, users need to know where they are.
+
+### Show Current Position
+
+At each stage, state where user is:
+
+"We're in **Strategy** (step 2 of 4 in the foundation chain)"
+
+When helpful, show visual:
+```
+Vision ✓ → [Strategy] → Metrics/Discovery → Roadmap
+            └─ you are here
+```
+
+### Explicit Handoffs
+
+Never silently transition between main skills. Always:
+
+1. **Summarize** what was completed: "We've defined your vision: [1-sentence summary]"
+2. **State next step** and why: "This becomes the foundation for strategy."
+3. **Ask permission**: "Ready to move to Strategy, or want to refine vision first?"
+
+### Saving Context
+
+Before transitioning to next skill:
+1. Save work to `context/[skill].md` (e.g., `context/vision.md`)
+2. If incomplete, use `[Needs input: ...]` placeholders and mark as draft
+3. Offer one-pager: "Want a [Vision One-Pager] as a deliverable? (useful for stakeholder alignment)"
+
+---
+
 ## Skill Index
 
 | Skill | When to Use |

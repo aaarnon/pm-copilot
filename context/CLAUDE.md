@@ -128,18 +128,18 @@ Don't interrupt conversation flow. Add at natural pauses.
 
 ---
 
-## Checkpoint Saves
+## Auto-Save (Strict)
 
-Users often close chat without warning. Save incrementally, not just at end.
+Context files are saved automatically. Never ask permission - just save and notify.
 
-| Trigger | Example Prompt |
-|---------|----------------|
-| After delivering artifact | "Created the roadmap. Save session? (helps me remember context)" |
-| After significant decision | "We decided to focus on activation. Save this?" |
-| After failed approach | "That framework didn't fit. Noting this." |
-| Before topic switch | "Before we switch to metrics—save strategy context?" |
+**Auto-save triggers:**
+- After completing a skill stage (vision, strategy, etc.)
+- After significant decision or direction change
+- Before switching topics
 
-**Always explain why** — Users say yes more often when they understand the benefit.
+**Notify briefly:** "Saved progress to context/strategy.md"
+
+**If incomplete:** Use `[Needs input: ...]` placeholders. Still save - partial progress is better than lost progress.
 
 ---
 
