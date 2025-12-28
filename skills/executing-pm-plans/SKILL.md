@@ -75,15 +75,19 @@ After all tasks verified:
 
 ## PM-Specific Execution Patterns
 
-### Red Mode (Execution)
+### Red Mode (Committed Bet)
+- Scope and timeline defined, execute the plan
 - Move faster through tasks
 - Checkpoints at deliverable boundaries
 - Focus on completion
 
-### Blue Mode (Discovery)
+### Blue Mode (Figuring Out)
+- Still exploring what to build
 - Pause more for validation
 - Checkpoints include "what did we learn?"
 - Be willing to abandon tasks if learning invalidates them
+
+**Note:** Red/Blue is about decision certainty, not company stage. Pre-PMF teams building to validate are in Red mode.
 
 ---
 

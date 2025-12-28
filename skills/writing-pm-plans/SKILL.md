@@ -37,8 +37,6 @@ Every plan MUST start with:
 
 **Success Criteria:** [How we know it's done]
 
-**Red/Blue Mode:** [Execution/Discovery] - [Why]
-
 **Foundation Status:**
 - Vision: [Exists/Missing]
 - Strategy: [Exists/Missing]
@@ -123,8 +121,6 @@ Unlike code (commit after each task), PM work uses strategic checkpoints:
 - Roadmap in Now-Next-Later format
 - Top 3 initiatives have alignment docs
 - Stakeholder review scheduled
-
-**Red/Blue Mode:** Red (Execution) - PMF established, optimizing
 
 **Foundation Status:**
 - Vision: Exists (context/vision.md)

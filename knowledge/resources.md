@@ -512,7 +512,7 @@ Full article details for browsing and searching. File paths are relative to `kno
 | [Product Operating Model](https://www.producttalk.org/the-product-operating-model/) | `alignment/product-operating-model-teresa-torres.md` | Outcome Focus, Continuous Discovery, Product Trios | Teresa Torres |
 | [Business Impact to Roadmap](https://www.justanotherpm.com/blog/how-to-translate-business-impact-to-a-product-roadmap) | `alignment/translate-business-impact-to-roadmap-arora.md` | 4-Level Framework, Impact Translation | Sid Arora |
 | Six Steps Production Process | `alignment/six-steps-production-process.md` | 6 Stages, Cyclical Feedback, One-Pagers | Hustle Badger |
-| Product Alignment Document Template | `alignment/product-alignment-document-template.md` | 4-Section Template, RACI Matrix | Arnon |
+| Product Alignment Document Template | `alignment/product-alignment-document-template.md` | 4-Section Template, Team Roles | Arnon |
 | How to Use Product Alignment Doc | `alignment/how-to-use-product-alignment-doc.md` | 3 Phases, Problem Statement, Dependencies | Arnon |
 | [Break Frameworks](https://www.antmurphy.me/newsletter/dont-follow-frameworks-break-them) | `alignment/break-frameworks-ant-murphy.md` | Frameworks = Tools Not Blueprints, 4 Maturity Levels | Ant Murphy |
 | [Great One Pagers](https://publish.obsidian.md/cutlefish/Great+One+Pagers) | `alignment/great-one-pagers-john-cutler.md` | 10 Qualities of Great One-Pagers, 40 Workshop Questions | John Cutler |

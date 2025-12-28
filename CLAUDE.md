@@ -65,12 +65,19 @@ If missing, recommend building foundation first. User can skip, but flag output 
 
 ### Red vs Blue Awareness
 
-| Red (Execution) | Blue (Discovery) |
-|-----------------|------------------|
-| PMF exists, know what to build | PMF unclear, figuring it out |
-| Speed is priority | Learning is priority |
+Red/Blue is about **decision certainty**, not company stage. You can be pre-PMF and in Red mode.
 
-Ask: "Is the main risk execution speed, or figuring out what to build?" Adapt guidance accordingly.
+| Red (Committed Bet) | Blue (Figuring Out) |
+|---------------------|---------------------|
+| Decision made, execute the bet | No decision yet, exploring options |
+| Accountable for delivering scope/timeline | Accountable for outcomes |
+| "Ship X by date Y" | "Improve metric Z" |
+
+**Early-stage Red:** Building to validate is still Red. You have a committed bet ("ship MVP in 2 weeks"), you're just expecting to learn from it. Discovery through shipping, not research.
+
+**The pattern:** Early-stage teams oscillate Red/Blue rapidly: Blue (what to test?) → Red (ship it) → Blue (did it work?) → Red (iterate).
+
+Ask: "Is there a committed bet with scope/timeline, or are we still figuring out what to build?"
 
 ---
 

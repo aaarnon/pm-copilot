@@ -11,8 +11,8 @@ Coordinates stakeholders and facilitates buy-in. Focuses on cross-functional ali
 
 ## Quick Start
 
-1. Identify who needs to be aligned (RACI: Responsible, Accountable, Consulted, Informed)
-2. Adapt message to audience and phase (Blue/Discovery vs Red/Execution)
+1. Identify who needs to be aligned and who decides
+2. Adapt message to audience and their priorities
 3. Choose format: meeting, async doc, or presentation
 4. See `## Stakeholder` in `resources.md` for knowledge (Core first, Additional as needed)
 
@@ -23,7 +23,7 @@ Coordinates stakeholders and facilitates buy-in. Focuses on cross-functional ali
 **Stakeholder answers:**
 - How do we get stakeholders aligned?
 - How do we communicate progress and decisions?
-- Who needs to be involved (RACI)?
+- Who needs to be involved?
 - Are teams working toward the same outcomes?
 
 **Stakeholder is NOT:**
@@ -37,15 +37,15 @@ Coordinates stakeholders and facilitates buy-in. Focuses on cross-functional ali
 
 1. **Stakeholder Alignment** - Get buy-in from cross-functional stakeholders
 2. **Communication Facilitation** - Adapt messaging to audience and phase
-3. **RACI Clarity** - Define who's responsible, accountable, consulted, informed
+3. **Role Clarity** - Define who decides vs who inputs
 4. **Quarterly Cadence** - Support strategy review meetings
 
 ---
 
 ## Core Concepts
 
-- RACI: Responsible, Accountable, Consulted, Informed
-- Blue phase = patience, trust | Red phase = progress, predictability
+- When exploring: stakeholders want patience, trust
+- When executing: stakeholders want progress, predictability
 
 ---
 
@@ -73,7 +73,6 @@ Coordinates stakeholders and facilitates buy-in. Focuses on cross-functional ali
 
 **Supporting artifacts:**
 - Product Alignment Document (initiative one-pager)
-- Stakeholder RACI matrix
 - Communication plan
 
 ---
@@ -93,5 +92,5 @@ Coordinates stakeholders and facilitates buy-in. Focuses on cross-functional ali
 1. **Over-communication** - Not every update needs everyone
 2. **Under-communication** - Stakeholders surprised by changes
 3. **Wrong message for audience** - Adapt to what they care about
-4. **Skipping RACI** - Unclear who decides vs who inputs
+4. **Unclear roles** - Who decides vs who inputs not defined
 5. **One-time alignment** - Alignment needs maintenance

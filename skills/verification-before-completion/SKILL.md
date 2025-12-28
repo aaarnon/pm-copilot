@@ -44,7 +44,7 @@ BEFORE claiming any deliverable complete:
 | Strategy doc | Links to vision? Says NO clearly? Stakeholders can act on it? |
 | Roadmap | Ties to strategy? Trade-offs explicit? Now/Next/Later clear? |
 | OKRs | Outcomes not outputs? Measurable? Ambitious but achievable? |
-| Initiative doc | Problem defined? RACI complete? Risks assessed? |
+| Initiative doc | Problem defined? Roles clear? Risks assessed? |
 | Interview summary | Quotes attributed? Opportunities framed as capabilities? Evidence-based? |
 | One-pager | Follows style-guide.md? No placeholders? Decision-ready? |
 
@@ -93,7 +93,7 @@ For any PM deliverable:
 | "Strategy complete" | All three patterns filled, says NO | Document exists |
 | "Roadmap ready" | Ties to strategy, trade-offs clear | List of initiatives |
 | "OKRs set" | Outcome-focused, measurable | Activity list |
-| "Alignment doc done" | Problem + RACI + Risks | Template filled |
+| "Alignment doc done" | Problem + Roles + Risks | Template filled |
 | "Interview synthesized" | Quotes + opportunities extracted | Notes transcribed |
 
 ---

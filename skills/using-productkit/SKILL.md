@@ -43,16 +43,21 @@ Vision → Strategy → Roadmap
 
 ## Red vs Blue Awareness
 
-Ask: "Is the main risk execution speed, or figuring out what to build?"
+Red/Blue is about **decision certainty**, not company stage. You can be pre-PMF and in Red mode.
 
-| Red (Execution) | Blue (Discovery) |
-|-----------------|------------------|
-| PMF exists | PMF unclear |
-| Know what to build | Figuring it out |
-| Speed is priority | Learning is priority |
-| Focus: roadmap, metrics, delivery | Focus: discovery, validation, experiments |
+| Red (Committed Bet) | Blue (Figuring Out) |
+|---------------------|---------------------|
+| Decision made, execute the bet | No decision yet, exploring |
+| Accountable for scope/timeline | Accountable for outcomes |
+| "Ship X by date Y" | "Improve metric Z" |
 
-Adapt guidance based on mode. Don't apply execution frameworks to discovery problems.
+**Early-stage Red:** Building to validate is still Red. You have a bet ("ship MVP in 2 weeks"), just expecting to learn from it. Discovery through shipping, not research.
+
+**The pattern:** Early-stage teams oscillate rapidly: Blue (what to test?) → Red (ship it) → Blue (did it work?) → Red (iterate).
+
+Ask: "Is there a committed bet with scope/timeline, or still figuring out what to build?"
+
+Adapt guidance based on mode. Don't apply heavy execution frameworks to open exploration.
 
 ---
 

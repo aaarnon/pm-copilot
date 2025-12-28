@@ -11,7 +11,7 @@ Creates Product Alignment Documents for initiatives with problem, solution, laun
 
 ## Quick Start
 
-1. Start with Problem Definition: objective, success metric, stakeholders (RACI), risks
+1. Start with Problem Definition: objective, success metric, team, risks
 2. Add Solution Definition during design phase
 3. Complete Launch Readiness before shipping
 4. Track Release Impact post-launch
@@ -44,7 +44,7 @@ The Product Alignment Document has **4 sections** that evolve over the initiativ
 |---------|---------|
 | **Objective** | What we're trying to achieve, company goals connection |
 | **Success Metric** | How we'll measure success |
-| **Stakeholders (RACI)** | Who's responsible, accountable, consulted, informed |
+| **Team** | Who executes, who's consulted |
 | **Context** | Why this matters (user + business perspective) |
 | **Scope** | Now vs Later boundaries |
 | **Risks** | Value, Usability, Feasibility, Business Viability |
@@ -84,17 +84,6 @@ The Product Alignment Document has **4 sections** that evolve over the initiativ
 
 ---
 
-## RACI Framework
-
-| Role | Responsibility |
-|------|----------------|
-| **Responsible** | Doing the work (coding, design) |
-| **Accountable** | Final decision authority |
-| **Consulted** | Input before decisions |
-| **Informed** | Kept up to date |
-
----
-
 ## Four Risks Assessment
 
 | Risk | Question | Mitigation Approach |
@@ -121,13 +110,11 @@ The Product Alignment Document has **4 sections** that evolve over the initiativ
 ### Success Metric
 [Primary metric for measuring success]
 
-### Stakeholders
+### Team
 | Role | Person |
 |------|--------|
-| Responsible | |
-| Accountable | |
+| Execution | |
 | Consulted | |
-| Informed | |
 
 ### Context
 [Why this matters - user and business perspective]

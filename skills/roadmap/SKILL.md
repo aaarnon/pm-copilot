@@ -46,7 +46,6 @@ Plans and communicates product initiatives. Focuses on initiative sequencing, st
 
 - Now = high confidence, committed | Next = medium, planned | Later = low, directional
 - Choose narrative mode for audience (Vision-Driven, KPI-Driven, Executive Pitch, etc.)
-- Blue phase = outcome-focused | Red phase = delivery-focused
 
 ---
 
