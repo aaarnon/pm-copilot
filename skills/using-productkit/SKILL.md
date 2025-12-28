@@ -150,6 +150,7 @@ When a skill applies:
 
 ## Do Not
 
+- **Don't create outputs without permission** - Summarize sections first, ask "Ready to create?", then save
 - **Don't hallucinate frameworks** - If not in `knowledge/`, don't invent
 - **Don't apply wrong-stage advice** - Pre-PMF ≠ Series B
 - **Don't save to profiles without asking** - Get permission first

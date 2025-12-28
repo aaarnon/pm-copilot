@@ -53,6 +53,8 @@ Defines and organizes success measurement. Focuses on connecting metrics to outc
 
 ## Output Format
 
+**Before creating any output:** Follow the base rule in CLAUDE.md - summarize sections, ask permission, then save.
+
 **Primary artifact:** Metric framework for initiative
 
 ```

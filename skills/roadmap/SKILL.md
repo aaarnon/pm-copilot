@@ -22,7 +22,7 @@ Plans and communicates product initiatives. Focuses on initiative sequencing, st
 Then:
 - Choose narrative mode based on audience
 - Use Now-Next-Later format with appropriate confidence levels
-- See `## Roadmap` in `resources.md` for knowledge
+- See `## Roadmap` in `resources.md` for knowledge (Core first, Additional as needed)
 
 ---
 
