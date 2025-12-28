@@ -42,7 +42,7 @@ Plans and communicates product initiatives. Focuses on initiative sequencing, st
 
 ---
 
-## Key Frameworks
+## Key References
 
 For framework details, read from `knowledge/roadmap/`:
 - **Narrative modes** → 6 modes for different audiences

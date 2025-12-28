@@ -42,7 +42,7 @@ Defines the long-term purpose and direction of the product or business. Focuses 
 
 ---
 
-## Key Frameworks
+## Key References
 
 For framework details, read from `knowledge/vision/`:
 - **Vision Stack** → How vision connects to strategy and roadmap

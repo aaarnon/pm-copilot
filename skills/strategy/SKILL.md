@@ -56,7 +56,7 @@ See `knowledge/strategy/product-strategy-patterns-herbig.md` for detailed framew
 
 ---
 
-## Key Frameworks
+## Key References
 
 For framework details, read from `knowledge/strategy/`:
 - **DHM Framework** → `product-strategy-gibson-biddle.md`

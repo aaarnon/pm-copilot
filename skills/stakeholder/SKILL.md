@@ -42,12 +42,13 @@ Coordinates stakeholders and facilitates buy-in. Focuses on cross-functional ali
 
 ---
 
-## Key Frameworks
+## Key References
 
 For framework details, read from `knowledge/alignment/`:
 - **Product Operating Model** → Outcome focus, continuous discovery, cross-functional collaboration
 - **Product Alignment Document** → 4-section initiative template
 - **Red/Blue communication** → Phase-appropriate messaging
+- **OS Discovery Playbook** → Understanding org cycles, rituals, artifacts, decision patterns
 
 **Core concepts:**
 - RACI: Responsible, Accountable, Consulted, Informed

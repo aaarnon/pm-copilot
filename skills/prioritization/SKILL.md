@@ -37,7 +37,7 @@ Results are distributed **logarithmically** - some things give 100x impact, one 
 
 ---
 
-## Key Frameworks
+## Key References
 
 For framework details, read from `knowledge/prioritization/`:
 - **VEUC** → Value, Effort, Urgency, Confidence

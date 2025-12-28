@@ -43,7 +43,7 @@ Defines and organizes success measurement. Focuses on connecting metrics to outc
 
 ---
 
-## Key Frameworks
+## Key References
 
 For framework details, read from `knowledge/metrics/`:
 - **OKRs** → `okrs-product-management-herbig.md`, `escape-okr-theatre-ant-murphy.md`

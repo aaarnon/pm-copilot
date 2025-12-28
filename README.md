@@ -1,6 +1,6 @@
 # ProductKit
 
-ProductKit is a context-engineered product management workflow featuring composable skills for strategy, discovery, roadmapping, and prioritization.
+ProductKit is a context-aware system for product management, featuring composable skills for strategy, discovery, roadmapping, and prioritization.
 
 ---
 

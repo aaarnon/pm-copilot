@@ -43,7 +43,7 @@ Validates problems and maps opportunities before committing to solutions. Focuse
 
 ---
 
-## Key Frameworks
+## Key References
 
 For framework details, read from `knowledge/discovery/`:
 - **OST (Opportunity Solution Trees)** → Teresa Torres framework
