@@ -39,8 +39,9 @@ Vision → Strategy → Metrics → Discovery → Roadmap
 **STOP before Roadmap.** Do not build a roadmap without:
 1. Metrics defined (what outcomes matter - not necessarily OKRs, any success measures)
 2. Opportunities identified (what problems/needs to address)
+3. Capacity understood (team size, constraints - 3 engineers ≠ 30)
 
-A roadmap without these is just a feature list.
+A roadmap without opportunities is just a feature list. A roadmap without capacity is unrealistic.
 
 **If foundations missing:** Recommend building them first. User can skip, but flag output as incomplete. Never include time estimates.
 
