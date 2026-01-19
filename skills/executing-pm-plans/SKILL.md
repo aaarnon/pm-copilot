@@ -32,12 +32,16 @@ Load plan, review critically, execute tasks with strategic checkpoints.
 
 For each task:
 
-1. **Announce:** "Starting Task N: [name]"
-2. **Check inputs:** Verify context files exist
-3. **Follow steps:** Execute exactly as written
-4. **Verify:** Check success criteria
-5. **Save:** Deliverable to specified location
-6. **Mark complete:** Update todo list
+1. **Check dependencies:** If `Requires: Task N`, verify that task is complete first
+2. **Announce:** "Starting Task N: [name]"
+3. **Check inputs:** Verify context files exist
+4. **Follow steps:** Execute exactly as written
+5. **Verify:** Check success criteria
+6. **Confirm evidence:** Check the Evidence field - does the concrete proof exist?
+7. **Save:** Deliverable to specified location
+8. **Mark complete:** Update todo list
+
+**Parallel execution:** Tasks with `Requires: None` or whose dependencies are met can run simultaneously. Use subagents for independent tasks when appropriate.
 
 ### Step 3: Checkpoint
 
@@ -60,8 +64,24 @@ Ready for feedback. Continue to next task, or review first?
 - Success criteria unclear
 - Stakeholder input needed but not available
 - Task depends on external action
+- **Dependency not met** (`Requires: Task N` but Task N incomplete)
 
 **Don't guess.** State the blocker and wait.
+
+### Step 4b: Parallel Execution (Optional)
+
+When multiple tasks have dependencies satisfied:
+
+1. **Identify ready tasks:** All tasks where `Requires` is met
+2. **Check independence:** Tasks don't share output files
+3. **Execute in parallel:** Use subagents or work simultaneously
+4. **Sync at checkpoints:** Gather results before dependent tasks
+
+**Example:**
+```
+Tasks 1, 2 both have Requires: None → Execute in parallel
+Task 3 has Requires: Tasks 1, 2 → Wait for both, then execute
+```
 
 ### Step 5: Complete Initiative
 
@@ -117,6 +137,9 @@ Stay within the plan structure while using referenced skills.
 ## Remember
 
 - Review plan critically before starting
+- **Check dependencies** before starting each task
+- **Verify evidence** after each task, not just success criteria
+- **Run parallel tasks** when dependencies allow
 - Follow plan steps exactly
 - Don't skip checkpoints
 - Save deliverables to specified locations

@@ -135,6 +135,51 @@ description: Use when [triggers only]. Never summarize workflow.
 
 ---
 
+## Skill Structure by Type
+
+Different skill types follow different structures:
+
+### Main Skills (vision, strategy, metrics, discovery, roadmap)
+
+```
+## Quick Start           ← 4-5 steps, reference resources.md in step 4
+## Co-Creation Flow      ← Element-by-element guidance (default mode)
+## Core Purpose          ← What this skill answers
+## Key Responsibilities  ← What it does
+## Core Concepts         ← Key ideas
+## Output Format         ← Artifact structure
+## Success Criteria      ← What good looks like
+## Common Pitfalls       ← What to avoid
+## Verification Criteria ← Structural + quality checks
+## Eval Summary          ← Format for verification output
+```
+
+### Utility Skills (positioning, okr-builder, etc.)
+
+```
+## Quick Start           ← 4-5 steps
+## Knowledge Access      ← Link to resources.md section
+## [Process/Framework]   ← Domain-specific guidance
+## Output Format         ← Artifact structure
+## Common [X] Mistakes   ← Domain-specific pitfalls (optional)
+```
+
+### Execution Skills (writing-pm-plans, executing-pm-plans)
+
+```
+## Overview              ← What this does
+## When to Use           ← Trigger conditions
+## The Process           ← Step-by-step execution
+## [Specific sections]   ← Domain-specific (checkpoints, blockers, etc.)
+## Remember              ← Key reminders
+```
+
+### Meta Skills (using-productkit, skill-creator)
+
+Flexible structure based on purpose. No standard template.
+
+---
+
 ## Output Quality
 
 Before finalizing any output, verify it follows `style-guide.md` structure:

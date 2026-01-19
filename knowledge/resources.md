@@ -68,6 +68,7 @@ Skill-based index. Go to your skill section, read Core first, then Additional as
 - `metrics/choosing-success-metrics-hustle-badger.md` - Ed Biden's Success Metrics Framework
 - `metrics/revenue-retention-metrics-hustle-badger.md` - Susannah Belcher's Revenue & Retention Metrics
 - `metrics/leading-product-metrics-hustle-badger.md` - Susannah Belcher's Leading Metrics
+- `metrics/tie-product-changes-to-business-impact-van-der-berg.md` - Else van der Berg's Hierarchy of Metrics + OST Integration
 
 ### Additional
 - `strategy/product-strategy-gibson-biddle.md` - Gibson Biddle's DHM Model & GLEe Framework
@@ -466,6 +467,7 @@ Full article details for browsing and searching. File paths are relative to `kno
 | [Choosing Success Metrics](https://www.hustlebadger.com/metrics/success-metrics/) | `metrics/choosing-success-metrics-hustle-badger.md` | 5 Steps to Define Success Metric, 5 Lenses for Metric Design | Ed Biden |
 | [Revenue & Retention Metrics](https://www.hustlebadger.com/metrics/product-success-metrics/) | `metrics/revenue-retention-metrics-hustle-badger.md` | Cohort Analysis, Gross vs Net Churn, ARR/MRR | Susannah Belcher |
 | [Leading Product Metrics](https://www.hustlebadger.com/metrics/product-metrics/) | `metrics/leading-product-metrics-hustle-badger.md` | 71x Metrics Cheat Sheet, 6 Criteria for Good Leading Metrics | Susannah Belcher |
+| [Tie Product Changes to Business Impact](https://elsevanderberg.substack.com/p/how-to-tie-product-changes-to-business) | `metrics/tie-product-changes-to-business-impact-van-der-berg.md` | Hierarchy of Metrics (3 Levels), OST Integration, Ex-Post Analysis | Else van der Berg |
 
 ## Discovery Articles
 
@@ -534,6 +536,7 @@ Full article details for browsing and searching. File paths are relative to `kno
 | Author | Expertise | Website |
 |--------|-----------|---------|
 | Adam Nash | Product Planning, Feature Buckets | adamnash.blog |
+| Else van der Berg | Metrics Hierarchy, Business Impact | elsevanderberg.substack.com |
 | Ant Murphy | Roadmapping, OKRs, Prioritization, Discovery (Explore/Exploit) | antmurphy.me |
 | April Dunford | Product Positioning | aprildunford.com |
 | Brian Balfour | Growth Strategy, Four Fits | reforge.com |

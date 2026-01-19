@@ -328,6 +328,7 @@ When adding to knowledge/:
 1. Add file to appropriate folder
 2. Update `resources.md` skill section(s): Add file path under `### Core` or `### Additional`
 3. Update `resources.md` Article Reference table: Add row with Article, File, Key Concepts, Author
+4. If new author: Add entry to `authors.md` with frameworks, bio, and links
 
 ---
 

@@ -229,6 +229,19 @@ When building deliverables, use this directory to populate the Sources & Attribu
 
 ---
 
+## Else van der Berg
+
+**Frameworks:** Hierarchy of Metrics (3-Level), OST Integration, Ex-Post Analysis
+
+**Known for:** Connecting product metrics to business impact, metrics hierarchy, tying features to outcomes
+
+| | |
+|---|---|
+| Newsletter | [Else's Productpourri (Substack)](https://elsevanderberg.substack.com) |
+| LinkedIn | [linkedin.com/in/elsevanderberg](https://www.linkedin.com/in/elsevanderberg) |
+
+---
+
 ## Publications & Platforms
 
 These are curated sources rather than individual authors:
