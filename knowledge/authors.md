@@ -242,6 +242,35 @@ When building deliverables, use this directory to populate the Sources & Attribu
 
 ---
 
+## Markus Muller
+
+**Frameworks:** Roadmap Pipeline, ICE Score (Impact/Confidence/Ease), Three Routines (Weekly Triage, Roadmap Alignment, OKR Sync)
+
+**Known for:** Continuous roadmapping, Kanban-based triage, outcome over output objectives, balancing adaptability and predictability
+
+| | |
+|---|---|
+| Medium | [medium.com/@markusmuller89](https://medium.com/@markusmuller89) |
+| LinkedIn | [linkedin.com/in/markusmuller89](https://www.linkedin.com/in/markusmuller89) |
+
+---
+
+## Itamar Gilad
+
+**Frameworks:** Confidence Meter, ICE Score (Impact/Confidence/Ease), Evidence-Guided Product Development, GIST Planning (Goals/Ideas/Steps/Tasks)
+
+**Known for:** Evidence-based prioritization, the Confidence Meter, replacing HiPPO-driven decisions with calibrated evidence
+
+| | |
+|---|---|
+| Book | [Evidence-Guided](https://itamargilad.com/book/) |
+| Newsletter | [itamargilad.com](https://itamargilad.com/newsletter/) |
+| Courses | [itamargilad.com/courses](https://itamargilad.com/courses/) |
+| LinkedIn | [linkedin.com/in/itamargilad](https://www.linkedin.com/in/itamargilad) |
+| X/Twitter | [@itamargilad](https://x.com/itamargilad) |
+
+---
+
 ## Publications & Platforms
 
 These are curated sources rather than individual authors:

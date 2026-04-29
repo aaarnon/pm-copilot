@@ -132,6 +132,7 @@ Skill-based index. Go to your skill section, read Core first, then Additional as
 - `roadmap/product-roadmap-templates.md` - Ed Biden's Roadmap Templates
 - `roadmap/strategic-roadmap-saeed-khan.md` - Saeed Khan's Strategic Roadmap
 - `roadmap/roadmap-dates-roman-pichler.md` - Roman Pichler's Now-Next-Later Framework
+- `roadmap/roadmap-pipeline-markus-muller.md` - Markus Muller's Roadmap Pipeline
 
 ### Additional
 - `roadmap/messy-middle-first-round.md` - Scott Belsky's Messy Middle
@@ -199,6 +200,7 @@ Skill-based index. Go to your skill section, read Core first, then Additional as
 ### Core
 - `prioritization/layered-prioritization.md` - Ant Murphy's Layered Prioritization
 - `prioritization/confidence-not-value.md` - Ant Murphy's Confidence Over Value
+- `prioritization/confidence-meter-gilad.md` - Itamar Gilad's Confidence Meter & ICE Score
 - `prioritization/veuc-prioritization-framework.md` - Ant Murphy's VEUC Framework
 - `prioritization/prioritization-strategy.md` - Prioritization Strategy Guide
 - `strategy/product-strategy-gibson-biddle.md` - Gibson Biddle's DHM Model & GLEe Framework
@@ -498,6 +500,7 @@ Full article details for browsing and searching. File paths are relative to `kno
 | [Mission to Vision to Strategy to Roadmap](https://www.lennysnewsletter.com/p/mission-vision-strategy-goals-roadmap) | `roadmap/mission-vision-strategy-goals-roadmap-lenny.md` | Strategic Pyramid, Strategy as 3-5 Investments | Lenny Rachitsky |
 | [Three Feature Buckets](https://adamnash.blog/2009/07/22/guide-to-product-planning-three-feature-buckets/) | `roadmap/three-feature-buckets-adam-nash.md` | Metrics Movers/Customer Requests/Customer Delight, 40/30/30 | Adam Nash |
 | [5 Steps Features to Outcome](https://www.antmurphy.me/newsletter/5-steps-from-features-to-outcome-roadmap) | `roadmap/features-to-outcome-roadmap-ant-murphy.md` | 5-Step Transformation, Narrative-Driven Roadmapping | Ant Murphy |
+| [The Playbook to Fix Your Product Roadmap](https://medium.com/@markusmuller89/the-playbook-to-fix-your-product-roadmap-1bd8da1ae344) | `roadmap/roadmap-pipeline-markus-muller.md` | Roadmap Pipeline, ICE Score, Three Routines, Outcome over Output | Markus Muller |
 
 ## Prioritization Articles
 
@@ -505,6 +508,7 @@ Full article details for browsing and searching. File paths are relative to `kno
 |---------|------|--------------|--------|
 | [Layered Prioritization](https://www.linkedin.com/posts/ant-murphy_one-of-the-worst-advice-i-got-early-in-my-share-7415636037479211008) | `prioritization/layered-prioritization.md` | Value is Contextual, Prioritization Layers, Strategy-First | Ant Murphy |
 | [Confidence Not Value](https://www.antmurphy.me/newsletter/20/06/08/prioritization-is-about-confidence-not-value) | `prioritization/confidence-not-value.md` | Confidence Over Value, Discovery as Confidence-Building | Ant Murphy |
+| [The Tool That Will Help You Choose Better Product Ideas](https://itamargilad.com/the-tool-that-will-help-you-choose-better-product-ideas/) | `prioritization/confidence-meter-gilad.md` | Confidence Meter (0-10 scale), ICE Score, Evidence Tiers, Opinions vs Evidence | Itamar Gilad |
 | [VEUC Framework](https://www.antmurphy.me/newsletter/is-urgency-the-missing-ingredient-in-prioritisation) | `prioritization/veuc-prioritization-framework.md` | Value/Effort/Urgency/Confidence, Time-Sensitivity | Ant Murphy |
 | [High Velocity Decisions](https://www.hustlebadger.com/what-do-product-teams-do/high-velocity-decision-making/) | `prioritization/high-velocity-decision-making.md` | Type 1 vs Type 2 Decisions, 80/20 Information Gathering | Ed Biden |
 | [Can Do vs Should Do](https://cutlefish.substack.com/p/tbm-1652-can-do-vs-should-do) | `prioritization/can-do-vs-should-do-cutler.md` | 9-Box Matrix, Organizational vs Technical Difficulty | John Cutler |
@@ -542,8 +546,10 @@ Full article details for browsing and searching. File paths are relative to `kno
 | Brian Balfour | Growth Strategy, Four Fits | reforge.com |
 | Ed Biden | Discovery, Risk Management, Impact Models | hustlebadger.com |
 | Gibson Biddle | Product Strategy, DHM, GLEe | gibsonbiddle.medium.com |
+| Itamar Gilad | Confidence Meter, ICE Score, Evidence-Guided | itamargilad.com |
 | John Cutler | Product Thinking, Roadmaps, One-Pagers | cutlefish.substack.com |
 | Lenny Rachitsky | Product Strategy, Growth | lennysnewsletter.com |
+| Markus Muller | Roadmap Pipeline, Continuous Roadmapping | medium.com/@markusmuller89 |
 | Roman Pichler | Product Roadmaps, Agile | romanpichler.com |
 | Saeed Khan | Strategic Roadmaps, PM as Business Management | swkhan.medium.com |
 | Teresa Torres | Product Discovery, OST, Continuous Interviewing | producttalk.org |
